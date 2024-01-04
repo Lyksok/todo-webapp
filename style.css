@@ -1,0 +1,10 @@
+body {
+    align-items: center;
+    height: 100vh;
+    font-size: 24px; /* Adjust the value as needed */
+}
+
+input[type="checkbox"] {
+    font-size: inherit;
+    transform: scale(3); /* Adjust the value as needed */
+}
