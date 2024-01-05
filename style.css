@@ -1,10 +1,42 @@
 body {
     align-items: center;
+    text-align: center;
     height: 100vh;
     font-size: 24px; /* Adjust the value as needed */
+    background-color: #222222;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 input[type="checkbox"] {
     font-size: inherit;
     transform: scale(3); /* Adjust the value as needed */
+    text-align: left;
+}
+
+#todo-form {
+    margin: 30pt;
+}
+
+#todo-input {
+    font-size: inherit;
+    width: 50%;
+    padding: 10pt;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#todo-button {
+    font-size: inherit;
+    padding: 10pt;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#todo-list {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
 }
